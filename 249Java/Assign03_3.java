@@ -4,20 +4,27 @@ public class Assign03_3 {
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);
+		String userInput = "";
 
 		do{
 			System.out.println("Please enter a string.");
-			string userInput = input.nextLine();
+			userInput = input.nextLine();
+			char[] userArray = userInput.toCharArray();
+			String outputString = "";
 
-			string outputString = "";
-
-			for (char: userInput) {
-				
+			for (char letter: userArray) {
+				if (Character.isDigit(letter)){
+					outputString += "_";
+				}
+				else{
+					outputString += letter;
+				}
 				
 			}
+			System.out.println(outputString);
 
 		}
-		while (userInput != "NULL");
+		while (!userInput.isEmpty());
 
 	}
 }
