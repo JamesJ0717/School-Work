@@ -1,0 +1,483 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"file",
+				"file_name"
+			],
+			[
+				"ja",
+				"javac"
+			],
+			[
+				"user",
+				"userFile"
+			],
+			[
+				"c",
+				"c"
+			],
+			[
+				"out",
+				"outputString"
+			],
+			[
+				"t",
+				"t"
+			],
+			[
+				"f",
+				"f"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"en",
+				"endl"
+			],
+			[
+				"m",
+				"main\tmain()"
+			],
+			[
+				"for",
+				"fore\tfor (each)"
+			],
+			[
+				"S",
+				"String"
+			],
+			[
+				"j",
+				"j.u\tjava.util."
+			],
+			[
+				"com",
+				"computeCramerY"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/myJava.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++11/C++11.sublime-build",
+					""
+				],
+				[
+					"Packages/C++11/C++11.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/myJava.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/myJava.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/myJava.sublime-build",
+					""
+				],
+				[
+					"Packages/myJava.sublime-build",
+					"Compile"
+				],
+				[
+					"Packages/myJava.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/myJava.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 321.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"qui",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"quick",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"add ",
+				"Git: Add All"
+			],
+			[
+				"git",
+				"Git: Toggle Annotations"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pyht",
+				"Set Syntax: Python"
+			],
+			[
+				"ja",
+				"Set Syntax: Java"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"material theme",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"material",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			]
+		],
+		"width": 452.0
+	},
+	"console":
+	{
+		"height": 299.0,
+		"history":
+		[
+			"g++ ghp3.cpp",
+			"a.exe",
+			"java Assign03_3",
+			"java Assign03_3.java",
+			"java Assign03_3",
+			"echo $SHELL",
+			"where javac.exe",
+			"where ",
+			"which",
+			"where",
+			"where javac.exe",
+			"where javac",
+			"where java",
+			"where java.exe",
+			"where java",
+			"where C:/ProgramData/Oracle/Java/javapath_target_1593390/java.exe",
+			"where /ProgramData/Oracle/Java/javapath_target_1593390/java.exe",
+			"where /ProgramData/Oracle/Java/javapath_target_1593390",
+			"where /ProgramData/Oracle/Java/javapath_target_1593390/",
+			"where /ProgramData/Oracle/Java/javapath_target_1593390/*",
+			"where C:/ProgramData/Oracle/Java/javapath_target_1593390/*",
+			"where C:/ProgramData/Oracle/Java/javapath_target_1593390/"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Jimmy/Desktop/CS"
+	],
+	"file_history":
+	[
+		"/C/Users/Jimmy/Desktop/School.sublime-project",
+		"/C/Users/Jimmy/Desktop/CS/249Java/Assign04/Player.java",
+		"/C/Users/Jimmy/Desktop/CS/249Java/Assign04/Weapon.java",
+		"/C/Users/Jimmy/Desktop/CS/249Java/Assign04/Assign04.java",
+		"/C/Users/Jimmy/Desktop/CS/README.md",
+		"/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/myJava.sublime-build",
+		"/C/Users/Jimmy/Desktop/CS/249Java/Test.java",
+		"/C/Users/Jimmy/Desktop/CS/240C++/compress.cpp",
+		"/C/Users/Jimmy/Desktop/CS/240C++/ghp3.cpp",
+		"/C/Users/Jimmy/Desktop/CS/240C++/new.txt",
+		"/C/Users/Jimmy/Desktop/CS/240C++/dwords.txt",
+		"/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/Jimmy/Desktop/CS/240C++/test.cpp",
+		"/C/Users/Jimmy/Desktop/CS/249Java/Assign03_3.java",
+		"/C/Users/Jimmy/Desktop/CS/249Java/Assign02_1.java",
+		"/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/Jimmy/Documents/CS/CS/249/Assign02_1.java",
+		"/C/Users/Jimmy/Documents/CS/CS/249/testNumbers.txt",
+		"/C/Users/Jimmy/Documents/CS/CS/249/Assign02.zip",
+		"/C/Users/Jimmy/Documents/CS/249/Assign02_1.java",
+		"/C/Users/Jimmy/Documents/CS/249/[path"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 109.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 293.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 250.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "CS.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
