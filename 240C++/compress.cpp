@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void encode(void);
+void compress(void);
 void decode(void);
 
 int main(void)
@@ -12,14 +12,14 @@ int main(void)
 	int choice = 0;
 
 	cout<<"what would you like to do?\n";
-	cout<<"1: Encode\n";
+	cout<<"1: Compress\n";
 	cout<<"2: Decode\n";
 	cin>>choice;
 
 	switch(choice)
 	{
 		case 1:
-			encode();
+			compress();
 			break;
 		case 2:
 			decode();
@@ -32,15 +32,15 @@ int main(void)
 	return 0;
 }
 
-void encode(void)
+void compress(void)
 {
 	ifstream theFile;
 	ofstream newFile;
 	string userFile;
 	string userOutFile;
-	int ch;
+	char ch;
 
-	cout<<"Please enter the file to encode: ";
+	cout<<"Please enter the file to compress: ";
 	cin>>userFile;
 
 	cout<<"Please enter new file: ";
@@ -53,7 +53,7 @@ void encode(void)
 	{
 		ch = theFile.get();
 		//cout<<int(ch%26)<<" ";
-		newFile<<ch%26<<"";
+		newFile<<ch%26;
 	}
 
 	newFile.close();
