@@ -64,7 +64,7 @@
 	"buffers":
 	[
 	],
-	"build_system": "Packages/myJava.sublime-build",
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
 	"build_system_choices":
 	[
 		[
@@ -176,9 +176,29 @@
 	"command_palette":
 	{
 		"height": 321.0,
-		"last_filter": "",
+		"last_filter": "pull",
 		"selected_items":
 		[
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packageresou",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"packageresource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"add",
 				"Git: Add All"
@@ -200,10 +220,6 @@
 				"Git: Quick Commit (repo)"
 			],
 			[
-				"pull",
-				"Git: Pull"
-			],
-			[
 				"commi",
 				"Git: Commit"
 			],
@@ -214,10 +230,6 @@
 			[
 				"git",
 				"Git: Toggle Annotations"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"instal",
@@ -276,7 +288,7 @@
 				"Install Package Control"
 			]
 		],
-		"width": 452.0
+		"width": 484.0
 	},
 	"console":
 	{
@@ -318,10 +330,15 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Jimmy/Desktop/CS"
+		"/C/Users/Jimmy/Desktop/CS",
+		"/C/Users/Jimmy/Desktop/CS/249Java"
 	],
 	"file_history":
 	[
+		"/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/myC++.sublime-build",
+		"/C/Users/Jimmy/Desktop/CS/240C++/ghp3.cpp",
+		"/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/C++/C++ Single File.sublime-build",
+		"/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/C++/C++.sublime-settings",
 		"/C/Users/Jimmy/Desktop/School.sublime-project",
 		"/C/Users/Jimmy/Desktop/CS/249Java/Assign04/Player.java",
 		"/C/Users/Jimmy/Desktop/CS/249Java/Assign04/Weapon.java",
@@ -330,7 +347,6 @@
 		"/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/myJava.sublime-build",
 		"/C/Users/Jimmy/Desktop/CS/249Java/Test.java",
 		"/C/Users/Jimmy/Desktop/CS/240C++/compress.cpp",
-		"/C/Users/Jimmy/Desktop/CS/240C++/ghp3.cpp",
 		"/C/Users/Jimmy/Desktop/CS/240C++/new.txt",
 		"/C/Users/Jimmy/Desktop/CS/240C++/dwords.txt",
 		"/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
@@ -417,9 +433,13 @@
 	{
 		"height": 0.0
 	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 116.0
+	},
 	"output.exec":
 	{
-		"height": 293.0
+		"height": 338.0
 	},
 	"output.find_results":
 	{
