@@ -63,23 +63,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Stuff/Python/redditbot.py",
-			"settings":
-			{
-				"buffer_size": 395,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Stuff/HTML_JavaScript/something.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
@@ -217,7 +200,7 @@
 				"Git: Push"
 			],
 			[
-				"quic",
+				"qui",
 				"Git: Quick Commit (repo)"
 			],
 			[
@@ -225,15 +208,15 @@
 				"Git: Add All"
 			],
 			[
+				"quic",
+				"Git: Quick Commit (repo)"
+			],
+			[
 				"js",
 				"Set Syntax: JavaScript"
 			],
 			[
 				"q",
-				"Git: Quick Commit (repo)"
-			],
-			[
-				"qui",
 				"Git: Quick Commit (repo)"
 			],
 			[
@@ -386,6 +369,9 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Jimmy/Desktop/CS/Stuff/HTML_JavaScript/Fishing Long Island, NY.html",
+		"/C/Users/Jimmy/Desktop/CS/Stuff/HTML_JavaScript/something.js",
+		"/C/Users/Jimmy/Desktop/CS/Stuff/Python/redditbot.py",
 		"/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/myC++.sublime-build",
 		"/C/Users/Jimmy/Desktop/CS/240C++/ghp3.cpp",
 		"/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/C++/C++ Single File.sublime-build",
@@ -444,67 +430,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Stuff/Python/redditbot.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 395,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								395,
-								395
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Stuff/HTML_JavaScript/something.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -605,7 +532,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 193.0,
+	"side_bar_width": 257.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
