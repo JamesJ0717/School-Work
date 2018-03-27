@@ -63,8 +63,17 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Stuff/Python/redditbot.py",
+			"settings":
+			{
+				"buffer_size": 395,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
-	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
 	[
 		[
@@ -170,15 +179,47 @@
 				"Packages/myJava.sublime-build",
 				""
 			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
 		]
 	],
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 321.0,
-		"last_filter": "pull",
+		"height": 228.0,
+		"last_filter": "push",
 		"selected_items":
 		[
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"qui",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
 			[
 				"pull",
 				"Git: Pull"
@@ -200,20 +241,8 @@
 				"Package Control: Install Package"
 			],
 			[
-				"add",
-				"Git: Add All"
-			],
-			[
 				"Snippet: ",
 				"Snippet: Lorem ipsum"
-			],
-			[
-				"push",
-				"Git: Push"
-			],
-			[
-				"qui",
-				"Git: Quick Commit (repo)"
 			],
 			[
 				"quick",
@@ -331,7 +360,8 @@
 	"expanded_folders":
 	[
 		"/C/Users/Jimmy/Desktop/CS",
-		"/C/Users/Jimmy/Desktop/CS/249Java"
+		"/C/Users/Jimmy/Desktop/CS/Stuff",
+		"/C/Users/Jimmy/Desktop/CS/Stuff/Python"
 	],
 	"file_history":
 	[
@@ -393,8 +423,38 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Stuff/Python/redditbot.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								395,
+								395
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
