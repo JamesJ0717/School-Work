@@ -71,6 +71,14 @@
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "Stuff/HTML_JavaScript/something.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
@@ -209,12 +217,24 @@
 				"Git: Push"
 			],
 			[
-				"qui",
+				"quic",
 				"Git: Quick Commit (repo)"
 			],
 			[
 				"add",
 				"Git: Add All"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"q",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"qui",
+				"Git: Quick Commit (repo)"
 			],
 			[
 				"python",
@@ -361,6 +381,7 @@
 	[
 		"/C/Users/Jimmy/Desktop/CS",
 		"/C/Users/Jimmy/Desktop/CS/Stuff",
+		"/C/Users/Jimmy/Desktop/CS/Stuff/HTML_JavaScript",
 		"/C/Users/Jimmy/Desktop/CS/Stuff/Python"
 	],
 	"file_history":
@@ -423,7 +444,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -447,6 +468,35 @@
 						{
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Stuff/HTML_JavaScript/something.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
