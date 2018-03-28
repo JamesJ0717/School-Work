@@ -4,7 +4,7 @@ public class Player{
 	private int[] position = new int[2];
 	private int health = 100;
 	private ArrayList<Item> inventory = new ArrayList<>();
-	
+
 	public Weapon currentWeapon;
 
 	public Player(int x, int y){
@@ -43,10 +43,10 @@ public class Player{
                 //System.out.println(weapon);
 	}
 	// public void addItem(Item item){
-	// 	this.inventory += item;
+	// 	this.inventory = item;
 	// }
 	// public boolean useItem(int index){
-	// 	if (index && inventory.get(index).instanceOf(Food)) {
+	// 	if (index && inventory.get(index).instanceof(Food)) {
 	// 		Player.health += item.heals;
 	// 	}
 	// }
