@@ -8,7 +8,9 @@ public class Food extends Item{
 		return heals;
 	}
 	@Override
-	public String toString(String name, double weight, double heals){
-		super.toString;
+	public String toString(){
+		String message = super.toString() + "\n";
+		message += "Heals: " + heals;
+		return message;
 	}
 }
