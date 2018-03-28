@@ -200,7 +200,7 @@
 				"Git: Push"
 			],
 			[
-				"qui",
+				"quic",
 				"Git: Quick Commit (repo)"
 			],
 			[
@@ -208,7 +208,7 @@
 				"Git: Add All"
 			],
 			[
-				"quic",
+				"qui",
 				"Git: Quick Commit (repo)"
 			],
 			[
@@ -369,6 +369,8 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Jimmy/Desktop/CS/Stuff/HTML_JavaScript/Fish Pics/Fishing Long Island, NY.html",
+		"/C/Users/Jimmy/Desktop/CS/.gitattributes",
 		"/C/Users/Jimmy/Desktop/CS/Stuff/HTML_JavaScript/Fishing Long Island, NY.html",
 		"/C/Users/Jimmy/Desktop/CS/Stuff/HTML_JavaScript/something.js",
 		"/C/Users/Jimmy/Desktop/CS/Stuff/Python/redditbot.py",
@@ -484,7 +486,7 @@
 	},
 	"output.git":
 	{
-		"height": 250.0
+		"height": 147.0
 	},
 	"output.mdpopups":
 	{
