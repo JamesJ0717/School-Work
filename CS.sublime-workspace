@@ -68,10 +68,13 @@
 	"buffers":
 	[
 		{
+			"contents": "import java.util.Scanner;\n\npublic class Assign05 {\n\tpublic static void main(String[] args) {\n\t\tPlayer player = new Player(3,3);\n\n\t\tScanner input = new Scanner(System.in);\n\n\t\twhile (true) {\n\t\t\tSystem.out.println(\"Enter item name: \");\n\t\t\tString name = input.nextLine();\n\t\t\tif (name == null) {\n\t\t\t\tbreak;\n\t\t\t}\n\t\t\tSystem.out.println(\"Enter item weight: \");\n\t\t\tdouble weight = input.nextDouble();\n\t\t\tSystem.out.println(\"Is the item food?\");\n\t\t\tString isFood = input.nextLine();\n\t\t\tif (isFood == \"Y\") {\n\t\t\t\tSystem.out.println(\"What is the item's healing power?\");\n\t\t\t\tdouble heals = input.nextDouble();\n\t\t\t\tFood food = new Food(name, weight, heals);\n\t\t\t\tplayer.addItem(food);\n\n\t\t\t}\n\t\t\telse {\n\t\t\t\tItem item = new Item(name, weight);\n\t\t\t\tplayer.addItem(item);\n\n\t\t\t}\n\t\t}\n\t\tplayer.printInventory();\n\t}\n}",
 			"file": "249Java/Assign05/Assign05.java",
+			"file_size": 826,
+			"file_write_time": 131668367900030000,
 			"settings":
 			{
-				"buffer_size": 767,
+				"buffer_size": 793,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -274,16 +277,16 @@
 				"Package Control: Install Package"
 			],
 			[
+				"pull",
+				"Git: Pull"
+			],
+			[
 				"Package Control: ",
 				"Package Control: List Packages"
 			],
 			[
 				"package ",
 				"Package Control: List Packages"
-			],
-			[
-				"pull",
-				"Git: Pull"
 			],
 			[
 				"push",
@@ -450,6 +453,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/Javatar/Developers/Proto.javatar-packages",
 		"/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/myJava.sublime-build",
 		"/C/Users/Jimmy/Desktop/CS/249Java/Assign03/Assign03_3.java",
 		"/C/Users/Jimmy/Desktop/stuff/feb01.c",
@@ -524,15 +528,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 767,
+						"buffer_size": 793,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								762,
-								762
+								793,
+								793
 							]
 						],
 						"settings":

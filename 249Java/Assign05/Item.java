@@ -17,8 +17,8 @@ public class Item{
 	}
 	@Override
 	public String toString(){
-		String message = "Name: " + name;
-		message = "Weight: " + weight;
+		String message = "Name: " + getName();
+		message += "Weight: " + getWeight();
 		return message;
 
 	}

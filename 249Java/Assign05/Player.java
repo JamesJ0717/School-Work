@@ -53,9 +53,9 @@ public class Player{
 	//}
 	public void printInventory(){
 		System.out.println("INVENTORY: ");
-		//for (Item q: inventory) {
-			
-		//}
+		for (Item q: inventory) {
+			System.out.println(q.toString());	
+		}
 	}
 
 }

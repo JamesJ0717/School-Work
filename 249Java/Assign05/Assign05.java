@@ -6,20 +6,27 @@ public class Assign05 {
 
 		Scanner input = new Scanner(System.in);
 
-		while (true) {
+		boolean run = true;
+		while (run) {
+			
 			System.out.println("Enter item name: ");
 			String name = input.nextLine();
-			if (name == null) {
+			
+			if (name.equalsIgnoreCase("None")) {
 				break;
 			}
+
 			System.out.println("Enter item weight: ");
 			double weight = input.nextDouble();
+			
 			System.out.println("Is the item food?");
 			String isFood = input.nextLine();
-			if (isFood == "Y") {
+			
+			if (isFood.equalsIgnoreCase("Y")) {
 				System.out.println("What is the item's healing power?");
 				double heals = input.nextDouble();
 				Food food = new Food(name, weight, heals);
+				player.addItem(food);
 
 			}
 			else {
@@ -29,5 +36,8 @@ public class Assign05 {
 			}
 		}
 		player.printInventory();
+
+
+		input.close();
 	}
 }
