@@ -42,13 +42,20 @@ public class Player{
                 currentWeapon = weapon;
                 //System.out.println(weapon);
 	}
-	// public void addItem(Item item){
-	// 	this.inventory = item;
-	// }
-	// public boolean useItem(int index){
-	// 	if (index && inventory.get(index).instanceof(Food)) {
-	// 		Player.health += item.heals;
-	// 	}
-	// }
+	public void addItem(Item item){
+		inventory.add(item);
+	}
+	//public boolean useItem(int index){
+		//if ((index < inventory.size()) && inventory.get(index).instanceof(Food)) {
+			//Player.health += Food.getHeals();
+			//inventory
+		//}
+	//}
+	public void printInventory(){
+		System.out.println("INVENTORY: ");
+		//for (Item q: inventory) {
+			
+		//}
+	}
 
 }

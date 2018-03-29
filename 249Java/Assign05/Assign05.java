@@ -15,7 +15,8 @@ public class Assign05 {
 			System.out.println("Enter item weight: ");
 			double weight = input.nextDouble();
 			System.out.println("Is the item food?");
-			if (input.nextLine() == "Y") {
+			String isFood = input.nextLine();
+			if (isFood == "Y") {
 				System.out.println("What is the item's healing power?");
 				double heals = input.nextDouble();
 				Food food = new Food(name, weight, heals);
@@ -23,10 +24,10 @@ public class Assign05 {
 			}
 			else {
 				Item item = new Item(name, weight);
-				//Player.inventory.addItem(item);
+				player.addItem(item);
 
 			}
 		}
-
+		player.printInventory();
 	}
 }

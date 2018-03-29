@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"is",
+				"isFood"
+			],
+			[
 				"file",
 				"file_name"
 			],
@@ -63,8 +67,53 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "249Java/Assign05/Assign05.java",
+			"settings":
+			{
+				"buffer_size": 775,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "249Java/Assign05/Item.java",
+			"settings":
+			{
+				"buffer_size": 365,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "249Java/Assign05/Food.java",
+			"settings":
+			{
+				"buffer_size": 302,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "import java.util.ArrayList;\n\npublic class Player{\n\tprivate int[] position = new int[2];\n\tprivate int health = 100;\n\tprivate ArrayList<Item> inventory = new ArrayList<>();\n\n\tpublic Weapon currentWeapon;\n\n\tpublic Player(int x, int y){\n            position[0] = x;\n            position[1] = y;\n\t}\n\n\tpublic int getX(){\n\t\treturn position[0];\n\t}\n\n\tpublic int getY(){\n\t\treturn position[1];\n\t}\n\n\tpublic int getHealth(){\n\t\treturn health;\n\t}\n\n\tpublic Weapon getCurrentWeapon(){\n                return currentWeapon;\n\t}\n\n\tpublic void setX(int x){\n        }\n\n\tpublic void setY(int y){\n\t}\n\n\tpublic void setHealth(int health){\n            this.health = health;\n\t}\n\n\tpublic void setCurrentWeapon(Weapon weapon){\n                currentWeapon = weapon;\n                //System.out.println(weapon);\n\t}\n\tpublic void addItem(Item item){\n\t\tthis.inventory = item;\n\t}\n\tpublic boolean useItem(int index){\n\t\tif (index && inventory.get(index).instanceof(Food)) {\n\t\t\tPlayer.health += item.heals;\n\t\t}\n\t}\n\tpublic printInventory(){\n\t\tSystem.out.println(\"INVENTORY: \");\n\t\tfor ( : ) {\n\t\t\t\n\t\t}\n\t}\n\n}",
+			"file": "249Java/Assign05/Player.java",
+			"file_size": 1033,
+			"file_write_time": 131668315533008052,
+			"settings":
+			{
+				"buffer_size": 1068,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "249Java/Assign05/Weapon.java",
+			"settings":
+			{
+				"buffer_size": 655,
+				"line_ending": "Windows"
+			}
+		}
 	],
-	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system": "Packages/myJava.sublime-build",
 	"build_system_choices":
 	[
 		[
@@ -159,6 +208,34 @@
 				],
 				[
 					"Packages/myJava.sublime-build",
+					"Build"
+				],
+				[
+					"Packages/myJava.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/myJava.sublime-build",
+				"Build"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/myJava.sublime-build",
+					""
+				],
+				[
+					"Packages/myJava.sublime-build",
 					"Compile"
 				],
 				[
@@ -188,19 +265,23 @@
 			]
 		]
 	],
-	"build_varint": "",
+	"build_varint": "Build",
 	"command_palette":
 	{
-		"height": 228.0,
-		"last_filter": "push",
+		"height": 352.0,
+		"last_filter": "pull",
 		"selected_items":
 		[
+			[
+				"pull",
+				"Git: Pull"
+			],
 			[
 				"push",
 				"Git: Push"
 			],
 			[
-				"quic",
+				"qui",
 				"Git: Quick Commit (repo)"
 			],
 			[
@@ -208,7 +289,7 @@
 				"Git: Add All"
 			],
 			[
-				"qui",
+				"quic",
 				"Git: Quick Commit (repo)"
 			],
 			[
@@ -222,10 +303,6 @@
 			[
 				"python",
 				"Set Syntax: Python"
-			],
-			[
-				"pull",
-				"Git: Pull"
 			],
 			[
 				"prv",
@@ -327,6 +404,9 @@
 		"height": 299.0,
 		"history":
 		[
+			"javac",
+			"javac Assign05.java",
+			"javac",
 			"g++ ghp3.cpp",
 			"a.exe",
 			"java Assign03_3",
@@ -363,27 +443,29 @@
 	"expanded_folders":
 	[
 		"/C/Users/Jimmy/Desktop/CS",
-		"/C/Users/Jimmy/Desktop/CS/Stuff",
-		"/C/Users/Jimmy/Desktop/CS/Stuff/HTML_JavaScript",
-		"/C/Users/Jimmy/Desktop/CS/Stuff/Python"
+		"/C/Users/Jimmy/Desktop/CS/249Java",
+		"/C/Users/Jimmy/Desktop/CS/249Java/Assign05",
+		"/C/Users/Jimmy/Desktop/CS/Stuff"
 	],
 	"file_history":
 	[
+		"/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/myJava.sublime-build",
+		"/C/Users/Jimmy/Desktop/CS/249Java/Assign03/Assign03_3.java",
+		"/C/Users/Jimmy/Desktop/stuff/feb01.c",
+		"/C/Users/Jimmy/Desktop/CS/Stuff/Python/redditbot.py",
+		"/C/Users/Jimmy/Desktop/CS/249Java/Assign04/Assign04.java",
+		"/C/Users/Jimmy/Desktop/CS/249Java/Assign04/Player.java",
+		"/C/Users/Jimmy/Desktop/CS/249Java/Assign04/Weapon.java",
+		"/C/Users/Jimmy/Desktop/CS/240C++/ghp3.cpp",
 		"/C/Users/Jimmy/Desktop/CS/Stuff/HTML_JavaScript/Fish Pics/Fishing Long Island, NY.html",
 		"/C/Users/Jimmy/Desktop/CS/.gitattributes",
 		"/C/Users/Jimmy/Desktop/CS/Stuff/HTML_JavaScript/Fishing Long Island, NY.html",
 		"/C/Users/Jimmy/Desktop/CS/Stuff/HTML_JavaScript/something.js",
-		"/C/Users/Jimmy/Desktop/CS/Stuff/Python/redditbot.py",
 		"/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/myC++.sublime-build",
-		"/C/Users/Jimmy/Desktop/CS/240C++/ghp3.cpp",
 		"/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/C++/C++ Single File.sublime-build",
 		"/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/C++/C++.sublime-settings",
 		"/C/Users/Jimmy/Desktop/School.sublime-project",
-		"/C/Users/Jimmy/Desktop/CS/249Java/Assign04/Player.java",
-		"/C/Users/Jimmy/Desktop/CS/249Java/Assign04/Weapon.java",
-		"/C/Users/Jimmy/Desktop/CS/249Java/Assign04/Assign04.java",
 		"/C/Users/Jimmy/Desktop/CS/README.md",
-		"/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/myJava.sublime-build",
 		"/C/Users/Jimmy/Desktop/CS/249Java/Test.java",
 		"/C/Users/Jimmy/Desktop/CS/240C++/compress.cpp",
 		"/C/Users/Jimmy/Desktop/CS/240C++/new.txt",
@@ -401,7 +483,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -432,14 +514,164 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "249Java/Assign05/Assign05.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								770,
+								770
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "249Java/Assign05/Item.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "249Java/Assign05/Food.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								302,
+								302
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "249Java/Assign05/Player.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1068,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1048,
+								1048
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 369.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "249Java/Assign05/Weapon.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 41.0
 	},
 	"input":
 	{
@@ -478,7 +710,7 @@
 	},
 	"output.exec":
 	{
-		"height": 338.0
+		"height": 172.0
 	},
 	"output.find_results":
 	{
@@ -496,7 +728,7 @@
 	"project": "CS.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -534,7 +766,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 257.0,
+	"side_bar_width": 174.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
