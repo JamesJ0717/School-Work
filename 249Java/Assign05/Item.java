@@ -1,13 +1,14 @@
 public class Item{
 
-	private String name = "";
+	private String name = " \n";
 	private double weight = 0;
 
 	public Item(){
 
 	}
 	public Item(String name, double weight){
-
+		this.name = name;
+		this. weight = weight;
 	}
 	public String getName(){
 		return name;
@@ -17,8 +18,8 @@ public class Item{
 	}
 	@Override
 	public String toString(){
-		String message = "Name: " + getName();
-		message += "Weight: " + getWeight();
+		String message = "Name: " + name + "\n";
+		message += "Weight: " + weight;
 		return message;
 
 	}

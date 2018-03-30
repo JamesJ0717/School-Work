@@ -8,19 +8,19 @@ public class Assign05 {
 
 		boolean run = true;
 		while (run) {
-			
-			System.out.println("Enter item name: ");
-			String name = input.nextLine();
-			
+			input.reset();
+			System.out.println("Enter item name and weight: ");
+			String name = input.next();
 			if (name.equalsIgnoreCase("None")) {
 				break;
 			}
-
-			System.out.println("Enter item weight: ");
 			double weight = input.nextDouble();
 			
-			System.out.println("Is the item food?");
-			String isFood = input.nextLine();
+
+			
+			input.reset();
+			System.out.println("Is the item food? [Y/N]");
+			String isFood = input.next();
 			
 			if (isFood.equalsIgnoreCase("Y")) {
 				System.out.println("What is the item's healing power?");
@@ -34,9 +34,14 @@ public class Assign05 {
 				player.addItem(item);
 
 			}
+			input.reset();
 		}
 		player.printInventory();
 
+		System.out.println("Choose an item (integer): ");
+		int itemToUse = input.nextInt();
+
+		player.useItem(itemToUse);
 
 		input.close();
 	}

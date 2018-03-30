@@ -45,16 +45,17 @@ public class Player{
 	public void addItem(Item item){
 		inventory.add(item);
 	}
-	//public boolean useItem(int index){
-		//if ((index < inventory.size()) && inventory.get(index).instanceof(Food)) {
-			//Player.health += Food.getHeals();
-			//inventory
-		//}
-	//}
+	public boolean useItem(int index){
+		if ((index <= inventory.size()) && inventory.get(index) instanceof Food){
+			health += Food.getHeals();
+		}
+		return true;
+	}
 	public void printInventory(){
 		System.out.println("INVENTORY: ");
 		for (Item q: inventory) {
-			System.out.println(q.toString());	
+			System.out.println("Item " + inventory.indexOf(q));
+			System.out.println(q.toString() + "\n");	
 		}
 	}
 
