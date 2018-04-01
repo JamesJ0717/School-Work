@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "C:\\Python\\Python36-32\\python.exe",
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "ios": "cpp"
+    }
+}
