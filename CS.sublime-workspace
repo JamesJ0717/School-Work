@@ -63,10 +63,55 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "240C++/ghp3.cpp",
+			"settings":
+			{
+				"buffer_size": 615,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/main.cpp",
+			"settings":
+			{
+				"buffer_size": 1731,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/User/myC++.sublime-build",
+			"settings":
+			{
+				"buffer_size": 246,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
-	"build_system": "Packages/myJava.sublime-build",
+	"build_system": "Packages/User/myC++.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
 		[
 			[
 				[
@@ -105,6 +150,30 @@
 			[
 				"Packages/C++/C++ Single File.sublime-build",
 				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/myC++.sublime-build",
+					""
+				],
+				[
+					"Packages/User/myC++.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/myC++.sublime-build",
+				"Run"
 			]
 		],
 		[
@@ -175,7 +244,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 321.0,
+		"height": 392.0,
 		"last_filter": "",
 		"selected_items":
 		[
@@ -276,7 +345,7 @@
 				"Install Package Control"
 			]
 		],
-		"width": 452.0
+		"width": 444.0
 	},
 	"console":
 	{
@@ -318,7 +387,10 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Jimmy/Desktop/CS"
+		"/C/Users/Jimmy/Desktop/CS",
+		"/C/Users/Jimmy/Desktop/CS/100Python",
+		"/C/Users/Jimmy/Desktop/CS/240C++",
+		"/C/Users/Jimmy/Desktop/CS/249Java"
 	],
 	"file_history":
 	[
@@ -346,7 +418,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
@@ -377,14 +449,110 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "240C++/ghp3.cpp",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 615,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								149,
+								149
+							]
+						],
+						"settings":
+						{
+							"SL.35.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 138.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/E/main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1731,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.16.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 998.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/User/myC++.sublime-build",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								230,
+								230
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -437,7 +605,7 @@
 	"project": "CS.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
