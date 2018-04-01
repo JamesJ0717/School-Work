@@ -11,7 +11,7 @@ numberSeries = int(input("Please enter a series of positive numbers" \
 for i in range(100):
     moreNumbers = int(input("Keep going: "))
     if moreNumbers < 0:
-        break;
+        break
     series.append(moreNumbers)
 
 #4. calculate sum
