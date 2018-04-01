@@ -7,13 +7,24 @@
             "label": "verify",
             "type": "shell",
             "command": "mvn -B verify",
-            "group": "build"
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ]
         },
         {
             "label": "test",
             "type": "shell",
             "command": "mvn -B test",
             "group": "test"
+        },
+        {
+            "label": "g++",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "${file_name}"
+            ]
         }
     ]
 }
