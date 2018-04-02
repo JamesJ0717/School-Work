@@ -19,19 +19,10 @@
             "group": "test"
         },
         {
-<<<<<<< HEAD
             "label": "javac",
             "type": "shell",
             "command": "javac ${file}",
             "group": "build"
-=======
-            "label": "g++",
-            "type": "shell",
-            "command": "g++",
-            "args": [
-                "${file_name}"
-            ]
->>>>>>> 15d16498e7cae33e8cb50881410f33142e584e9d
         }
     ]
 }
