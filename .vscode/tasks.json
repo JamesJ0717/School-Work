@@ -19,7 +19,7 @@
             "group": "test"
         },
         {
-            "label": "g++",
+            "label": "javac",
             "type": "shell",
             "command": "g++",
             "args": [

@@ -16,5 +16,6 @@
         "**/*.sublime*": true,
         "**/*.zip": true,
         "**/*.class": true
-    }
+    },
+    "java.home": "C:/Program Files/RedHat/java-1.8.0-openjdk-1.8.0.161-1"
 }
