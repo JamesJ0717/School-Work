@@ -6,16 +6,6 @@
     "configurations": [
 
         {
-            "name": "(Windows) Launch",
-            "type": "cppvsdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/240C++/a.exe",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "externalConsole": true
-        },
-        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
