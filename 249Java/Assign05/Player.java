@@ -46,8 +46,14 @@ public class Player{
 		inventory.add(item);
 	}
 	public boolean useItem(int index){
-		if ((index <= inventory.size()) && inventory.get(index) instanceof Food){
+		if ((index <= inventory.size()) && (inventory.get(index) instanceof Food))
+		{
 			health += food.getHeals();
+			inventory.remove(index);
+		}
+		else
+		{
+			System.out.println("Cannot use item.");
 		}
 		return true;
 	}

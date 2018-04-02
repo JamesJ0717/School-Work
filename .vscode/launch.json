@@ -3,8 +3,13 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
+<<<<<<< HEAD
     "configurations":[
         
+=======
+    "configurations": [
+
+>>>>>>> 15d16498e7cae33e8cb50881410f33142e584e9d
         {
             "type": "java",
             "name": "Debug (Launch)",
