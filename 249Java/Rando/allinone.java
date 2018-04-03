@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class Assign05 {
+public class allinone {
 	public static void main(String[] args) {
 		Player player = new Player(3,3);
 
@@ -47,7 +47,7 @@ public class Assign05 {
 	}
 }
 
-public class Player{
+class Player{
 	private int[] position = new int[2];
 	private int health = 100;
 	private ArrayList<Item> inventory = new ArrayList<>();
@@ -115,7 +115,7 @@ public class Player{
 
 }
 
-public class Item{
+class Item{
 
 	private String name = " \n";
 	private double weight = 0;
@@ -144,7 +144,7 @@ public class Item{
         }
 }
 
-public class Food extends Item{
+class Food extends Item{
 	private double heals = 0;
 
 	public Food(String name, double weight, double heals){
@@ -163,7 +163,7 @@ public class Food extends Item{
 	}
 }
 
-public class Weapon{
+class Weapon{
 
     private String name;
     private int damage = 0;
