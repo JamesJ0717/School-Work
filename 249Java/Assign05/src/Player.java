@@ -48,7 +48,8 @@ public class Player{
 	public boolean useItem(int index){
 		if ((index <= inventory.size()) && (inventory.get(index) instanceof Food))
 		{
-			health += food.getHeals();
+			health += inventory.get(index).getHeals();
+                        System.out.println("Current Health: " + health);
 			inventory.remove(index);
 		}
 		else

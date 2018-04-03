@@ -1,5 +1,6 @@
-private String name;
-	public class Weapon{
+public class Weapon{
+
+        private String name;
 	private int damage = 0;
 
 	//constructor 

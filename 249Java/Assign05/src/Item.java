@@ -16,11 +16,13 @@ public class Item{
 	public double getWeight(){
 		return weight;
 	}
-	@Override
+        @Override
 	public String toString(){
 		String message = "Name: " + name + "\n";
 		message += "Weight: " + weight;
 		return message;
-
 	}
+        public double getHeals(){
+            return 0.0;
+        }
 }

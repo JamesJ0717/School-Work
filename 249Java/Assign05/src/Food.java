@@ -5,6 +5,7 @@ public class Food extends Item{
 		super(name, weight);
 		this.heals = heals;
 	}
+        @Override
 	public double getHeals(){
 		return heals;
 	}
