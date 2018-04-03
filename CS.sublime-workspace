@@ -68,101 +68,29 @@
 	"buffers":
 	[
 		{
-<<<<<<< HEAD
-			"file": "240C++/ghp3.cpp",
+			"file": "249Java/Assign05/src/Assign05.java",
 			"settings":
 			{
-				"buffer_size": 615,
-=======
-			"contents": "import java.util.Scanner;\n\npublic class Assign05 {\n\tpublic static void main(String[] args) {\n\t\tPlayer player = new Player(3,3);\n\n\t\tScanner input = new Scanner(System.in);\n\n\t\twhile (true) {\n\t\t\tSystem.out.println(\"Enter item name: \");\n\t\t\tString name = input.nextLine();\n\t\t\tif (name == null) {\n\t\t\t\tbreak;\n\t\t\t}\n\t\t\tSystem.out.println(\"Enter item weight: \");\n\t\t\tdouble weight = input.nextDouble();\n\t\t\tSystem.out.println(\"Is the item food?\");\n\t\t\tString isFood = input.nextLine();\n\t\t\tif (isFood == \"Y\") {\n\t\t\t\tSystem.out.println(\"What is the item's healing power?\");\n\t\t\t\tdouble heals = input.nextDouble();\n\t\t\t\tFood food = new Food(name, weight, heals);\n\t\t\t\tplayer.addItem(food);\n\n\t\t\t}\n\t\t\telse {\n\t\t\t\tItem item = new Item(name, weight);\n\t\t\t\tplayer.addItem(item);\n\n\t\t\t}\n\t\t}\n\t\tplayer.printInventory();\n\t}\n}",
-			"file": "249Java/Assign05/Assign05.java",
-			"file_size": 826,
-			"file_write_time": 131668367900030000,
-			"settings":
-			{
-				"buffer_size": 793,
+				"buffer_size": 1009,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "249Java/Assign05/Item.java",
+			"file": "/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/myJava.sublime-build",
 			"settings":
 			{
-				"buffer_size": 365,
->>>>>>> ab84e51c073b030f2ade1aabf6e261f17c356ae1
+				"buffer_size": 310,
 				"line_ending": "Windows"
 			}
-		},
-		{
-<<<<<<< HEAD
-			"file": "/E/main.cpp",
-			"settings":
-			{
-				"buffer_size": 1731,
-=======
-			"file": "249Java/Assign05/Food.java",
-			"settings":
-			{
-				"buffer_size": 302,
->>>>>>> ab84e51c073b030f2ade1aabf6e261f17c356ae1
-				"line_ending": "Windows"
-			}
-		},
-		{
-<<<<<<< HEAD
-			"file": "/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/User/myC++.sublime-build",
-			"settings":
-			{
-				"buffer_size": 246,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-=======
-			"file": "249Java/Assign05/Player.java",
-			"settings":
-			{
-				"buffer_size": 1140,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "249Java/Assign05/Weapon.java",
-			"settings":
-			{
-				"buffer_size": 655,
-				"line_ending": "Windows"
-			}
->>>>>>> ab84e51c073b030f2ade1aabf6e261f17c356ae1
 		}
 	],
-	"build_system": "Packages/User/myC++.sublime-build",
+	"build_system": "Packages/myJava.sublime-build",
 	"build_system_choices":
 	[
 		[
 			[
 				[
-					"Anaconda Python Builder",
-					""
-				],
-				[
-					"Packages/Python/Python.sublime-build",
-					""
-				],
-				[
-					"Packages/Python/Python.sublime-build",
-					"Syntax Check"
-				]
-			],
-			[
-				"Packages/Python/Python.sublime-build",
-				""
-			]
-		],
-		[
-			[
-				[
 					"Packages/C++/C++ Single File.sublime-build",
 					""
 				],
@@ -198,30 +126,6 @@
 			[
 				"Packages/C++/C++ Single File.sublime-build",
 				""
-			]
-		],
-		[
-			[
-				[
-					"Packages/C++/C++ Single File.sublime-build",
-					""
-				],
-				[
-					"Packages/C++/C++ Single File.sublime-build",
-					"Run"
-				],
-				[
-					"Packages/User/myC++.sublime-build",
-					""
-				],
-				[
-					"Packages/User/myC++.sublime-build",
-					"Run"
-				]
-			],
-			[
-				"Packages/User/myC++.sublime-build",
-				"Run"
 			]
 		],
 		[
@@ -285,7 +189,7 @@
 			],
 			[
 				"Packages/myJava.sublime-build",
-				"Build"
+				"Run"
 			]
 		],
 		[
@@ -336,15 +240,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-<<<<<<< HEAD
-		"height": 392.0,
-		"last_filter": "",
-=======
-		"height": 397.0,
-		"last_filter": "insta",
->>>>>>> ab84e51c073b030f2ade1aabf6e261f17c356ae1
+		"height": 197.0,
+		"last_filter": "install",
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -400,10 +303,6 @@
 			[
 				"packageresource",
 				"PackageResourceViewer: Open Resource"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"Snippet: ",
@@ -474,11 +373,7 @@
 				"Install Package Control"
 			]
 		],
-<<<<<<< HEAD
-		"width": 444.0
-=======
 		"width": 484.0
->>>>>>> ab84e51c073b030f2ade1aabf6e261f17c356ae1
 	},
 	"console":
 	{
@@ -524,18 +419,18 @@
 	"expanded_folders":
 	[
 		"/C/Users/Jimmy/Desktop/CS",
-<<<<<<< HEAD
-		"/C/Users/Jimmy/Desktop/CS/100Python",
-		"/C/Users/Jimmy/Desktop/CS/240C++",
-		"/C/Users/Jimmy/Desktop/CS/249Java"
-=======
 		"/C/Users/Jimmy/Desktop/CS/249Java",
 		"/C/Users/Jimmy/Desktop/CS/249Java/Assign05",
+		"/C/Users/Jimmy/Desktop/CS/249Java/Assign05/src",
 		"/C/Users/Jimmy/Desktop/CS/Stuff"
->>>>>>> ab84e51c073b030f2ade1aabf6e261f17c356ae1
 	],
 	"file_history":
 	[
+		"/C/Users/Jimmy/Desktop/CS/249Java/Assign05/Assign05.java",
+		"/C/Users/Jimmy/Desktop/CS/249Java/Assign05/Weapon.java",
+		"/C/Users/Jimmy/Desktop/CS/249Java/Assign05/Player.java",
+		"/C/Users/Jimmy/Desktop/CS/249Java/Assign05/Food.java",
+		"/C/Users/Jimmy/Desktop/CS/249Java/Assign05/Item.java",
 		"/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/Javatar/Developers/Proto.javatar-packages",
 		"/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/myJava.sublime-build",
 		"/C/Users/Jimmy/Desktop/CS/249Java/Assign03/Assign03_3.java",
@@ -571,11 +466,7 @@
 	],
 	"find":
 	{
-<<<<<<< HEAD
-		"height": 31.0
-=======
 		"height": 28.0
->>>>>>> ab84e51c073b030f2ade1aabf6e261f17c356ae1
 	},
 	"find_in_files":
 	{
@@ -606,61 +497,33 @@
 	"groups":
 	[
 		{
-<<<<<<< HEAD
 			"selected": 1,
-=======
-			"selected": 0,
->>>>>>> ab84e51c073b030f2ade1aabf6e261f17c356ae1
 			"sheets":
 			[
 				{
 					"buffer": 0,
-<<<<<<< HEAD
-					"file": "240C++/ghp3.cpp",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 615,
-=======
-					"file": "249Java/Assign05/Assign05.java",
+					"file": "249Java/Assign05/src/Assign05.java",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 793,
->>>>>>> ab84e51c073b030f2ade1aabf6e261f17c356ae1
+						"buffer_size": 1009,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-<<<<<<< HEAD
-								149,
-								149
-=======
-								793,
-								793
->>>>>>> ab84e51c073b030f2ade1aabf6e261f17c356ae1
+								171,
+								171
 							]
 						],
 						"settings":
 						{
-<<<<<<< HEAD
-							"SL.35.region_keys":
+							"SL.22.region_keys":
 							[
-							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 138.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-=======
-							"SL.14.region_keys":
-							[
+								"SL.javac.Highlights.|region.redish markup.deleted.sublime_linter markup.error.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.javac.Gutter.region.redish markup.deleted.sublime_linter markup.error.sublime_linter.dot"
 							],
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/Java/Java.sublime-syntax",
@@ -670,183 +533,37 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
->>>>>>> ab84e51c073b030f2ade1aabf6e261f17c356ae1
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-<<<<<<< HEAD
-					"file": "/E/main.cpp",
+					"file": "/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/myJava.sublime-build",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1731,
-=======
-					"file": "249Java/Assign05/Item.java",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 365,
->>>>>>> ab84e51c073b030f2ade1aabf6e261f17c356ae1
+						"buffer_size": 310,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								310,
+								310
 							]
 						],
 						"settings":
 						{
-<<<<<<< HEAD
-							"SL.16.region_keys":
-							[
-							],
 							"git_gutter_is_enabled": false,
-							"syntax": "Packages/C++/C++.sublime-syntax"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 998.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-=======
-							"SL.15.region_keys":
-							[
-							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Java/Java.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
->>>>>>> ab84e51c073b030f2ade1aabf6e261f17c356ae1
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-<<<<<<< HEAD
-					"file": "/C/Users/Jimmy/AppData/Roaming/Sublime Text 3/Packages/User/myC++.sublime-build",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 246,
-=======
-					"file": "249Java/Assign05/Food.java",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 302,
->>>>>>> ab84e51c073b030f2ade1aabf6e261f17c356ae1
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-<<<<<<< HEAD
-								230,
-								230
-=======
-								165,
-								165
->>>>>>> ab84e51c073b030f2ade1aabf6e261f17c356ae1
-							]
-						],
-						"settings":
-						{
-<<<<<<< HEAD
-							"git_gutter_is_enabled": false,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-=======
-							"SL.16.region_keys":
-							[
-							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Java/Java.sublime-syntax",
->>>>>>> ab84e51c073b030f2ade1aabf6e261f17c356ae1
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-<<<<<<< HEAD
-					"stack_index": 2,
-=======
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "249Java/Assign05/Player.java",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1140,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1025,
-								1025
-							]
-						],
-						"settings":
-						{
-							"SL.17.region_keys":
-							[
-							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Java/Java.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 480.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "249Java/Assign05/Weapon.java",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 655,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"SL.18.region_keys":
-							[
-							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Java/Java.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
->>>>>>> ab84e51c073b030f2ade1aabf6e261f17c356ae1
 					"type": "text"
 				}
 			]
@@ -854,11 +571,7 @@
 	],
 	"incremental_find":
 	{
-<<<<<<< HEAD
-		"height": 31.0
-=======
 		"height": 41.0
->>>>>>> ab84e51c073b030f2ade1aabf6e261f17c356ae1
 	},
 	"input":
 	{
@@ -915,11 +628,7 @@
 	"project": "CS.sublime-project",
 	"replace":
 	{
-<<<<<<< HEAD
-		"height": 58.0
-=======
 		"height": 52.0
->>>>>>> ab84e51c073b030f2ade1aabf6e261f17c356ae1
 	},
 	"save_all_on_build": true,
 	"select_file":

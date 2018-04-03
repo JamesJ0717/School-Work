@@ -19,10 +19,39 @@
             "group": "test"
         },
         {
+            "label": "C++",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "${file_name}"
+            ]
+        },
+        {
             "label": "javac",
             "type": "shell",
-            "command": "javac ${file}",
-            "group": "build"
+            "command": "javac",
+            // "problemMatcher":{
+            //     "owner": "Java",
+            //     "fileLocation":[
+            //         "relative",
+            //         "${workspaceFolder}"
+            //     ],
+            //     "pattern":[
+            //         {
+            //             "regexp": "^([^\\\\s].*)\\\\((\\\\d+,\\\\d+)\\\\):\\\\s*(.*)$",
+            //             "file": 1,
+            //             "location": 2,
+            //             "message": 3
+            //         }
+            //     ]
+            // },
+            "args": [
+                "${file}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }

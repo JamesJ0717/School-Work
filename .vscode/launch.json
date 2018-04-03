@@ -6,20 +6,30 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Debug (Launch)-Assign05",
+            "name": "Debug (Launch)",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal",
             "stopOnEntry": false,
-            "mainClass": "Assign05",
+            "mainClass": "",
             "args": ""
         },
         {
-            "type": "java",
-            "name": "Debug (Attach)",
-            "request": "attach",
-            "hostName": "localhost",
-            "port": 0
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/240C++/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "externalConsole": true
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
         }
     ]
 }

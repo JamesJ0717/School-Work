@@ -1,5 +1,10 @@
 public class Weapon{
+<<<<<<< HEAD:249Java/Assign05/Weapon.java
 	private String name;
+=======
+
+        private String name;
+>>>>>>> 240636de7eaaeb05269b4fa00d0d36a630435ba3:249Java/Assign05/src/Weapon.java
 	private int damage = 0;
 
 	//constructor 
