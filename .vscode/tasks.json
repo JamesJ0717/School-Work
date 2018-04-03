@@ -23,8 +23,9 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "${file_name}"
-            ]
+                "-g", "${file}"
+            ],
+            "group": "build"
         },
         {
             "label": "javac",
@@ -48,10 +49,7 @@
             "args": [
                 "${file}"
             ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
+            "group": "build"
         }
     ]
 }
