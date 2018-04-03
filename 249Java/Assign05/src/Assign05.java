@@ -16,6 +16,7 @@ public class Assign05 {
 			}
 			double weight = input.nextDouble();	
 
+
 			input.reset();
 			System.out.println("Is the item food? [Y/N]");
 			String isFood = input.next();
@@ -44,3 +45,4 @@ public class Assign05 {
 		input.close();
 	}
 }
+
