@@ -12,8 +12,6 @@ public class Assign02_1 {
         double f = input.nextDouble();
 
         double x = 0.0;
-        double y = 0.0;
-
         x = ((e*d) - (b*f)) / ((a*d) - (b*c));
 
         System.out.println("" + x);
