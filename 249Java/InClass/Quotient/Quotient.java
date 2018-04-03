@@ -13,5 +13,7 @@ public class Quotient{
 		int c = quotient(a,b);
 
 		System.out.println("Answer is " + c);
+
+		input.close();
 	}
 }

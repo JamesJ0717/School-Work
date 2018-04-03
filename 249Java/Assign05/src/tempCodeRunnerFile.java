@@ -14,8 +14,8 @@ public class Assign05 {
 			if (name.equalsIgnoreCase("None")) {
 				break;
 			}
-			double weight = input.nextDouble();	
-
+			double weight = input.nextDouble();
+			
 			input.reset();
 			System.out.println("Is the item food? [Y/N]");
 			String isFood = input.next();
@@ -40,7 +40,7 @@ public class Assign05 {
 		int itemToUse = input.nextInt();
 
 		player.useItem(itemToUse);
-		
+
 		input.close();
 	}
 }
