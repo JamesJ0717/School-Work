@@ -22,8 +22,11 @@
             "label": "C++",
             "type": "shell",
             "command": "g++",
+            "options": {
+                "cwd": "${fileDirname}"
+            },
             "args": [
-                "${relativeFile}", "-o", "240c++/${fileBasenameNoExtension}"
+                "${file}", "-o", "${fileBasenameNoExtension}"
             ],
             "group": "build"
         },

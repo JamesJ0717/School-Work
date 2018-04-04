@@ -18,11 +18,11 @@
             "name": "C++ (Windows) Launch",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceRoot}\\240C++\\a.out",
+            "program": "${workspaceFolder}\\240C++\\a.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceRoot}",
-            "externalConsole": true
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false
         },
         {
             "name": "Python: Current File",
