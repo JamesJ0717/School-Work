@@ -16,7 +16,6 @@ public class Assign05 {
 			}
 			double weight = input.nextDouble();	
 
-
 			input.reset();
 			System.out.println("Is the item food? [Y/N]");
 			String isFood = input.next();
@@ -26,12 +25,10 @@ public class Assign05 {
 				double heals = input.nextDouble();
 				Food food = new Food(name, weight, heals);
 				player.addItem(food);
-
 			}
 			else {
 				Item item = new Item(name, weight);
-				player.addItem(item);
-
+				player.addItem(item);	
 			}
 			input.reset();
 		}
