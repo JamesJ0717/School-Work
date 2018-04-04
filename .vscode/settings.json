@@ -5,7 +5,9 @@
     "files.associations": {
         "iostream": "cpp",
         "ostream": "cpp",
-        "ios": "cpp"
+        "ios": "cpp",
+        "fstream": "cpp",
+        "string": "cpp"
     },
     "files.exclude": {
         "**/.git": true,

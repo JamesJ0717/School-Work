@@ -23,7 +23,7 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g", "${file}"
+                "${relativeFile}", "-o", "240c++/${fileBasenameNoExtension}"
             ],
             "group": "build"
         },
@@ -47,7 +47,7 @@
             //     ]
             // },
             "args": [
-                "${file}"
+                "${relativeFile}"
             ],
             "group": "build"
         }
