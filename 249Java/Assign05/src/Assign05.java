@@ -40,6 +40,7 @@ public class Assign05 {
 		player.useItem(itemToUse);
 		
 		input.close();
+		
 	}
 }
 
