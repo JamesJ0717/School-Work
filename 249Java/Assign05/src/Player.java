@@ -1,68 +1,68 @@
 import java.util.ArrayList;
 
-public class Player{
+public class Player {
 	private int[] position = new int[2];
 	private int health = 100;
 	private ArrayList<Item> inventory = new ArrayList<>();
 
 	public Weapon currentWeapon;
 
-	public Player(int x, int y){
-            position[0] = x;
-            position[1] = y;
+	public Player(int x, int y) {
+		position[0] = x;
+		position[1] = y;
 	}
 
-	public int getX(){
+	public int getX() {
 		return position[0];
 	}
 
-	public int getY(){
+	public int getY() {
 		return position[1];
 	}
 
-	public int getHealth(){
+	public int getHealth() {
 		return health;
 	}
 
-	public Weapon getCurrentWeapon(){
-                return currentWeapon;
+	public Weapon getCurrentWeapon() {
+		return currentWeapon;
 	}
 
-	public void setX(int x){
-        }
-
-	public void setY(int y){
+	public void setX(int x) {
 	}
 
-	public void setHealth(int health){
-            this.health = health;
+	public void setY(int y) {
 	}
 
-	public void setCurrentWeapon(Weapon weapon){
-                currentWeapon = weapon;
-                //System.out.println(weapon);
+	public void setHealth(int health) {
+		this.health = health;
 	}
-	public void addItem(Item item){
+
+	public void setCurrentWeapon(Weapon weapon) {
+		currentWeapon = weapon;
+		//System.out.println(weapon);
+	}
+
+	public void addItem(Item item) {
 		inventory.add(item);
 	}
-	public boolean useItem(int index){
-		if ((index <= inventory.size()) && (inventory.get(index) instanceof Food))
-		{
+
+	public boolean useItem(int index) {
+		if ((index <= inventory.size()) && (inventory.get(index) instanceof Food)) {
 			health += inventory.get(index).getHeals();
-                        System.out.println("Current Health: " + health);
+			System.out.println("Current Health: " + health);
 			inventory.remove(index);
-		}
-		else
-		{
+		} else {
 			System.out.println("Cannot use item.");
 		}
 		return true;
 	}
-	public void printInventory(){
+
+	public void printInventory() {
 		System.out.println("INVENTORY: ");
-		for (Item q: inventory) {
+		for (Item q : inventory) {
 			System.out.println("Item " + inventory.indexOf(q));
-			System.out.println(q.toString() + "\n");	
+			System.out.println(q.toString() + "\n");
 		}
 	}
 
