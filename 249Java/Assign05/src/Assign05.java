@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Assign05 {
 	public static void main(String[] args) {
-		Player player = new Player(3,3);
+		Player player = new Player(3, 3);
 
 		Scanner input = new Scanner(System.in);
 
@@ -14,21 +14,20 @@ public class Assign05 {
 			if (name.equalsIgnoreCase("None")) {
 				break;
 			}
-			double weight = input.nextDouble();	
+			double weight = input.nextDouble();
 
 			input.reset();
 			System.out.println("Is the item food? [Y/N]");
 			String isFood = input.next();
-			
+
 			if (isFood.equalsIgnoreCase("Y")) {
 				System.out.println("What is the item's healing power?");
 				double heals = input.nextDouble();
 				Food food = new Food(name, weight, heals);
 				player.addItem(food);
-			}
-			else {
+			} else {
 				Item item = new Item(name, weight);
-				player.addItem(item);	
+				player.addItem(item);
 			}
 			input.reset();
 		}
@@ -38,9 +37,7 @@ public class Assign05 {
 		int itemToUse = input.nextInt();
 
 		player.useItem(itemToUse);
-		
+
 		input.close();
-		
 	}
 }
-
