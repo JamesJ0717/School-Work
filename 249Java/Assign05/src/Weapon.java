@@ -1,36 +1,36 @@
-public class Weapon{
+public class Weapon {
+
 	private String name;
 	private int damage = 0;
 
-	//constructor 
+	//constructor
 	public Weapon(String name, int damage) {
-            this.name = name;
-            this.damage = damage;
-        
-        }
+		this.name = name;
+		this.damage = damage;
 
-	public String getName(){
-            return name;
 	}
 
-	public int getDamage(){
-            return damage;
+	public String getName() {
+		return name;
 	}
 
-	public void setName(String name){
-            
+	public int getDamage() {
+		return damage;
 	}
 
-	public void setDamage(int damage){
-	
-        }
+	public void setName(String name) {
 
-	public static void printWeapon(Weapon weapon){
+	}
+
+	public void setDamage(int damage) {
+
+	}
+
+	public static void printWeapon(Weapon weapon) {
 		if (weapon == null) {
-                    System.out.println("No weapon");
-                }
-		else {
-                    System.out.println(weapon.getName());
-                }
+			System.out.println("No weapon");
+		} else {
+			System.out.println(weapon.getName());
+		}
 	}
 }
