@@ -3,5 +3,5 @@ minutes = float(0)
 
 while minutes >= 30:
     calories_burned = calorie_burn * minutes
-    print ("You will burn", calories_burned, "in", minutes,"minutes.")
+    print("You will burn", calories_burned, "in", minutes, "minutes.")
     minutes += 5
