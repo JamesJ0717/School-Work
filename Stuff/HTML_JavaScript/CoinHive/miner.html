@@ -1,39 +1,34 @@
 <!DOCTYPE html>
 <html>
 <body>
-  <h1>Miner</h1>
-
-  <script src="https://authedmine.com/lib/simple-ui.min.js" async="async"></script>
+  <h1>Help</h1><br>
+  <script src = "https://authedmine.com/lib/simple-ui.min.js" async></script>
   <div class = "coinhive-miner"
-    style = "width: 400px; height: 310px"
+    style = "width: 256px; height: 310px"
     data-key = "2Z2gRMhnyTPFAZlFwR9SsmDEsdZW8Kg1" >
     <em>Loading...</em>
   </div>
 
-  <!-- <script src="https://authedmine.com/lib/simple-ui.min.js" async="async"></script>
-  <script>
-    //Listen on events
-    miner.on('found', function()  {/*Hash found*/})
-    miner.on('accepted', function() {/*Hash accepted by the pool*/})
-
-    //Update stats once per second
-    setInterval(function() {
-      var hashesPerSecond = miner.getHashesPerSecond();
-      var totalHashes = miner.getTotalHashes();
-      var acceptedHashes = miner.getAcceptedHashes();
-
-    }, 1000)
-  </script> -->
-
-  <!-- <form action="?" method="post">
-    <script src="https://authedmine.com/lib/captcha.min.js" async></script>
-    <div class="coinhive-captcha" data-hashes="2048" data-key="2Z2gRMhnyTPFAZlFwR9SsmDEsdZW8Kg1">
-      <em> Loading Captcha...<br>
-      If it doesn't load, please disable AdBlock!</em>
-    </div>
-    <input type="submit" value"Submit" />
-  </form> -->
-
 </body>
 
 </html>
+
+
+
+
+<!-- <script src="something.js" async="async"></script> -->
+<!-- <script>
+var miner = new CoinHive.Anonymous('2Z2gRMhnyTPFAZlFwR9SsmDEsdZW8Kg1', {
+theme:'dark'
+});
+
+miner.on('found')
+miner.on('accepted')
+
+setInterval(function(){
+var hashesPerSecond = miner.getHashesPerSecond();
+var totalHashes = miner.getTotalHashes();
+var acceptedHashes = miner.getAcceptedHashes();
+
+}, 1000);
+</script> -->
