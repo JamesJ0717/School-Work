@@ -9,8 +9,6 @@ public class Calculator {
       if (expr.contains("-")) {
         String firstNumberIndex = expr.substring(0, expr.indexOf("-"));
         String secondNumberIndex = expr.substring(expr.indexOf("-")+1);
-        // System.out.println(firstNumberIndex);
-        // System.out.println(secondNumberIndex);
         double firstNumber = Double.parseDouble(firstNumberIndex);
         double secondNumber = Double.parseDouble(secondNumberIndex);
         answer = firstNumber - secondNumber;
@@ -18,8 +16,6 @@ public class Calculator {
       else if (expr.contains("+")) {
         String firstNumberIndex = expr.substring(0, expr.indexOf("+"));
         String secondNumberIndex = expr.substring(expr.indexOf("+")+1);
-        // System.out.println(firstNumberIndex);
-        // System.out.println(secondNumberIndex);
         double firstNumber = Double.parseDouble(firstNumberIndex);
         double secondNumber = Double.parseDouble(secondNumberIndex);
         answer = firstNumber + secondNumber;
@@ -27,7 +23,6 @@ public class Calculator {
     }
     catch (Exception e)
     {
-      //e.printStackTrace();
       throw new InvalidExpressionException("Invalid Expression", e);
     }
     finally
