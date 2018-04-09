@@ -6,10 +6,11 @@ public class Assign06_1 {
     try {
       System.out.println("Please enter an expression: ");
       String expression = input.nextLine();
-      Calculator.eval(expression);
+      System.out.println(Calculator.eval(expression));
     } catch (Exception e) {
-
+      //throw new InvalidExpressionException("Invalid Expression", InvalidExpressionException);
     }
+
     input.close();
   }
 }

@@ -1,13 +1,40 @@
 public class Calculator {
-
   public static double eval(String expr) throws InvalidExpressionException {
-    // TODO Finish Code
+    double answer = 0.0;
     try {
-      System.out.println(expr);
-    } catch (Exception e) {
+      if (!(expr.contains("+")) && !(expr.contains("-"))) {
+        Exception e = new Exception("Invalid Expression");
+        throw e;
+      }
+      if (expr.contains("-")) {
+        String firstNumberIndex = expr.substring(0, expr.indexOf("-"));
+        String secondNumberIndex = expr.substring(expr.indexOf("-")+1);
+        // System.out.println(firstNumberIndex);
+        // System.out.println(secondNumberIndex);
+        double firstNumber = Double.parseDouble(firstNumberIndex);
+        double secondNumber = Double.parseDouble(secondNumberIndex);
+        answer = firstNumber - secondNumber;
+      }
+      else if (expr.contains("+")) {
+        String firstNumberIndex = expr.substring(0, expr.indexOf("+"));
+        String secondNumberIndex = expr.substring(expr.indexOf("+")+1);
+        // System.out.println(firstNumberIndex);
+        // System.out.println(secondNumberIndex);
+        double firstNumber = Double.parseDouble(firstNumberIndex);
+        double secondNumber = Double.parseDouble(secondNumberIndex);
+        answer = firstNumber + secondNumber;
+      }
+    }
+    catch (Exception e)
+    {
+      //e.printStackTrace();
+      throw new InvalidExpressionException("Invalid Expression", e);
+    }
+    finally
+    {
 
     }
-    return (0.0);
-  }
+    return (answer);
+    }
 
-}
+  }
