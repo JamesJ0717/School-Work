@@ -5,10 +5,10 @@ using namespace std;
 
 int main()
 {
-	double years[6][3] = {2100000, 1400000, 900000, 
-							0, 0, 0, 
-							0, 0, 0, 
-							0, 0, 0, 
+	double years[6][3] = {2100000, 1400000, 900000,
+							0, 0, 0,
+							0, 0, 0,
+							0, 0, 0,
 							0, 0, 0,
 							0, 0, 0};
 	double change[3][3] = {.011, .003, .007,
@@ -42,7 +42,7 @@ int main()
 	}
 
 	cout<<endl;
-	
+
 	for (int x = 0; x < 6; x++)
 	{
 		cout<<endl;
