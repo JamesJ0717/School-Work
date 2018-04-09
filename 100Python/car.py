@@ -4,4 +4,4 @@ liscense = .5 * basePrice
 dealPrep = 20
 destination = 10
 total = basePrice + tax + liscense + dealPrep + destination
-print("\nThe total cost of your new car is:",total)
+print("\nThe total cost of your new car is:", total)
