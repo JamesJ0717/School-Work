@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.net.URL;
 
-public class WordCounter{
+public class WordCounter {
     public static WordCountData count(String path) throws Exception{
         if(path.contains("http")){
             try {
@@ -19,6 +19,9 @@ public class WordCounter{
                         lineCnt++;
                     }
                 }
+            }
+            catch (Exception e) {
+
             }
 
 
