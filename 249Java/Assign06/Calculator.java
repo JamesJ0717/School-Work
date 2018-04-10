@@ -3,10 +3,9 @@ public class Calculator {
     double answer = 0.0;
     try {
       if (!(expr.contains("+")) && !(expr.contains("-"))) {
-        Exception e = new Exception("Invalid Expression");
-        throw e;
+        throw new Exception("Invalid Expression");
       }
-      if (expr.contains("-")) {
+      else if (expr.contains("-")) {
         String firstNumberIndex = expr.substring(0, expr.indexOf("-"));
         String secondNumberIndex = expr.substring(expr.indexOf("-")+1);
         double firstNumber = Double.parseDouble(firstNumberIndex);
