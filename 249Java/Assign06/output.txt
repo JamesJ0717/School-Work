@@ -1,4 +1,4 @@
-gameData.txt
-385
-18
-29
+http://cs.armstrong.edu/liang/data/Lincoln.txt
+1469
+275
+16

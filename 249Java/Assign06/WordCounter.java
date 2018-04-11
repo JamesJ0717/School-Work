@@ -20,9 +20,9 @@ public class WordCounter {
                     if (line.charAt(x) == ' ') {
                         wordCnt++;
                     }
-                    if (line.endsWith("\n")) {
-                        wordCnt++;
-                    }
+                }
+                if (line.endsWith("\n")) {
+                    wordCnt++;
                 }
                 lineCnt++;
             }
@@ -40,9 +40,9 @@ public class WordCounter {
                     if (line.charAt(x) == ' ') {
                         wordCnt++;
                     }
-                    if (line.endsWith("\n")) {
-                        wordCnt++;
-                    }
+                }
+                if (line.endsWith("\n")) {
+                    wordCnt++;
                 }
                 lineCnt++;
             }
