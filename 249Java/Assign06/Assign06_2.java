@@ -28,8 +28,6 @@ public class Assign06_2 {
         } catch (Exception e) {
             System.out.println("OH NO!");
             e.printStackTrace();
-        } finally {
-
         }
         input.close();
     }

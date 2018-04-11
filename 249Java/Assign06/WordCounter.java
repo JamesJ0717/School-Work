@@ -21,9 +21,9 @@ public class WordCounter {
                         wordCnt++;
                     }
                 }
-                if (line.endsWith("\n")) {
-                    wordCnt++;
-                }
+                // if (line.endsWith("\n")) {
+                //     wordCnt++;
+                // }
                 lineCnt++;
             }
             pageInput.close();
@@ -41,9 +41,9 @@ public class WordCounter {
                         wordCnt++;
                     }
                 }
-                if (line.endsWith("\n")) {
-                    wordCnt++;
-                }
+                // if (line.endsWith("\n")) {
+                //     wordCnt++;
+                // }
                 lineCnt++;
             }
 
