@@ -14,15 +14,15 @@ public class Assign06_2 {
 
             PrintWriter output = new PrintWriter("output.txt");
 
-            //System.out.println(path);
+            System.out.println("File Path:" + path);
             System.out.println("Number of characters: " + data.getCharCnt());
             System.out.println("Number of words: " + data.getWordCnt());
             System.out.println("Number of lines: " + data.getLineCnt());
 
-            output.println(path);
-            output.println(data.getCharCnt());
-            output.println(data.getWordCnt());
-            output.println(data.getLineCnt());
+            output.println("File Path: " + path);
+            output.println("Number of Characters: " + data.getCharCnt());
+            output.println("Number of Words: " + data.getWordCnt());
+            output.println("Number of Lines: " + data.getLineCnt());
 
             output.close();
         } catch (Exception e) {
