@@ -29,9 +29,11 @@ public class Player {
 	}
 
 	public void setX(int x) {
+		position[0] = x;
 	}
 
 	public void setY(int y) {
+		position[1] = y;
 	}
 
 	public void setHealth(int health) {

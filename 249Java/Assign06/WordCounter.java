@@ -40,10 +40,10 @@ public class WordCounter {
                     if (line.charAt(x) == ' ') {
                         wordCnt++;
                     }
+                    else if (line.charAt(x) == '\n') {
+                        wordCnt++;
+                    }
                 }
-                // if (line.endsWith("\n")) {
-                //     wordCnt++;
-                // }
                 lineCnt++;
             }
 
