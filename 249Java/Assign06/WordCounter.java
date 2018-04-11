@@ -16,15 +16,13 @@ public class WordCounter {
             while (pageInput.hasNext()) {
                 String line = pageInput.nextLine();
                 charCnt += line.length();
-                for (int x = 0; x < line.length(); x++) {
-                    if (line.charAt(x) == ' ') {
+                Scanner lineReader = new Scanner(line);
+                while (lineReader.hasNext()) {
+                        lineReader.next();
                         wordCnt++;
-                    }
                 }
-                // if (line.endsWith("\n")) {
-                //     wordCnt++;
-                // }
                 lineCnt++;
+                lineReader.close();
             }
             pageInput.close();
             WordCountData webData = new WordCountData(charCnt, wordCnt, lineCnt);
@@ -36,17 +34,15 @@ public class WordCounter {
             while (fileInput.hasNext()) {
                 String line = fileInput.nextLine();
                 charCnt += line.length();
-                for (int x = 0; x < line.length(); x++) {
-                    if (line.charAt(x) == ' ') {
+                Scanner lineReader = new Scanner(line);
+                while (lineReader.hasNext()) {
+                        lineReader.next();
                         wordCnt++;
-                    }
-                    else if (line.charAt(x) == '\n') {
-                        wordCnt++;
-                    }
                 }
-                lineCnt++;
-            }
 
+                lineCnt++;
+                lineReader.close();
+            }
             fileInput.close();
             WordCountData fileData = new WordCountData(charCnt, wordCnt, lineCnt);
             return (fileData);

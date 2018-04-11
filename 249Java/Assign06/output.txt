@@ -1,4 +1,4 @@
 http://cs.armstrong.edu/liang/data/Lincoln.txt
 1469
-275
+277
 16
