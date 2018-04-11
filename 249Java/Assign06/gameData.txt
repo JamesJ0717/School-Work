@@ -1,0 +1,29 @@
+MenuScreen
+BEGIN_GAME_MENU
+Welcome to Oregon Trail!
+What will you do?
+
+MessageScreen
+MAIN_GAME_MESSAGE
+You all died.
+BEGIN_GAME_MENU
+
+MessageScreen
+TRAIL_INFO_MESSAGE
+The trail was dangerous.
+BEGIN_GAME_MENU
+
+MenuScreenItem
+Start New Game
+BEGIN_GAME_MENU
+MAIN_GAME_MESSAGE
+
+MenuScreenItem
+Learn About Trail
+BEGIN_GAME_MENU
+TRAIL_INFO_MESSAGE
+
+MessageScreen
+OPENING_MESSAGE
+WELCOME TO OREGON TRAIL!
+BEGIN_GAME_MENU
