@@ -1,5 +1,8 @@
 .vscode/*
 **/**/*.class
+**/**/dist
+**/**/nbproject
+**/**/build
 _config.yml
 apt-cyg
 CS.*
