@@ -7,3 +7,4 @@ _config.yml
 apt-cyg
 CS.*
 **/**/*.exe
+**/**/*.exe.stackdump
