@@ -1,10 +1,10 @@
 import praw
-import re
-import time
+# import time
+# import re
 
 reddit = praw.Reddit(client_id='cvY7O5XIsYtPdw',
                      client_secret='nfD7cLg9GzdrOfwAtiwIhsFPw6Q',
-                     user_agent='<console:reddit_bot:0.0.1 (by /u/HereForPuh)>',
+                     user_agent='<console:reddit_bot:0.0.1(by /u/HereForPuh)>',
                      username='HereForPuh',
                      password='Triplej7879')
 
