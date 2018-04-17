@@ -1,5 +1,5 @@
 //Program that adds each character to the stack and queue simultaneously
-//It then tells you if each word in the file is a palindrome 
+//It then tells you if each word in the file is a palindrome
 //and returns the number of palindromes along with the words that are palindromes
 //Written by Alexandra Gostev
 //Program Written April 9, 2018
@@ -28,11 +28,11 @@ int main (void)
         string theFile;
 
         ifstream fileIn;                                                //Inputs file stream
-       
+
         cout<<"PLease enter the file name "<<endl;                      //Asks user for file name
         cin>>theFile;
         fileIn.open(theFile.data());                                     //Opens the file
-       
+
         assert(fileIn.is_open());                                       //Make sure file is opened properly
 
         while (fileIn >> word)                                           //Make sure you havent reached the end of the file
@@ -47,6 +47,7 @@ int main (void)
                 }
                 if(word.size()>1)                                       //Makes sure that a one letter word isnt considered a palindrom
                 {
+                    cout<<word.length()<<" ";
                         while(!pali.empty())
                         {
                                 if(pali.top()==palin.front())
@@ -69,10 +70,10 @@ int main (void)
                                 //Prints out the palindrome
                                 while(!copypali.empty())
                                 {
-                                        cout << copypali.top();
+                                        //cout << copypali.top();
                                         copypali.pop();
-                                } 
-                                cout<<"\n";  
+                                }
+                                //cout<<"\n";
                                 palcount++;
                         }
                         else
@@ -83,16 +84,13 @@ int main (void)
                                 }
                         }
                 }
-                        
+
         }
-                                
+
         cout << "\nThere are "<<palcount<< " palindromes"<< "\n ";
         cout << "\nThere are "<<words<< " words"<< "\n ";
-                                        
+
         fileIn.close();   //Closes file
-        
+
         return 0;
 }
-             
-
-
