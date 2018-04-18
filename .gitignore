@@ -5,6 +5,8 @@
 **/**/build
 _config.yml
 apt-cyg
-CS.*
+CS.code-workspace
+CS.sublime-project
+CS.sublime-workspace
 **/**/*.exe
 **/**/*.exe.stackdump
