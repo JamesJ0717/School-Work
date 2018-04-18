@@ -39,7 +39,7 @@ public abstract class Monster implements Loadable, Drawable{
 	}
 
     Scanner input = new Scanner(System.in);
-    void load(Scanner input) throws Exception{
+    public void load(Scanner input) throws Exception{
         x = input.nextInt();
         y = input.nextInt();
         health = input.nextInt();
