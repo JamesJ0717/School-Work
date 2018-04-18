@@ -8,3 +8,4 @@ apt-cyg
 CS.*
 **/**/*.exe
 **/**/*.exe.stackdump
+**/*.zip
