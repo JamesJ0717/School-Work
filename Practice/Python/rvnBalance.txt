@@ -26,3 +26,5 @@ Wed Apr 18 10:56:17 2018
 {"currency": "RVN", "unsold": 5.0612031931686, "balance": 0.91549188, "unpaid": 5.97669507, "paid24h": 42.84896333, "total": 48.82565840}
 Wed Apr 18 10:56:28 2018
 {"currency": "RVN", "unsold": 5.0612031931686, "balance": 0.91549188, "unpaid": 5.97669507, "paid24h": 42.84896333, "total": 48.82565840}
+Fri Apr 20 11:09:11 2018
+{"currency": "RVN", "unsold": 0, "balance": 0.00000000, "unpaid": 0.00000000, "paid24h": 6.68879948, "total": 6.68879948}
