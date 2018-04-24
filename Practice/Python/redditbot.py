@@ -11,6 +11,6 @@ reddit = praw.Reddit(client_id='cvY7O5XIsYtPdw',
 i = 0
 while (i <= 100):
     subreddit = reddit.random_subreddit(nsfw=True)
-    print(subreddit)
+    # print(subreddit)
     praw.models.Subreddit.subscribe(subreddit)
     i += 1

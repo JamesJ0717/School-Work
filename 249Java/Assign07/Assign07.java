@@ -132,6 +132,7 @@ public class Assign07 {
             }
 
             baseMap.draw();
+            
         }
         catch(Exception e) {
             System.err.println("Game error");
