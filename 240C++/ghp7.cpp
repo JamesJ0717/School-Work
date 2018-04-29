@@ -9,7 +9,7 @@ using namespace std;
 class Hasher
 {
     public:
-        Hasher() : elementarray[N_ARRAY]
+        Hasher() : elementarray(N_ARRAY)
         {
             for(i=0;i<23;i++)
             {
@@ -20,10 +20,10 @@ class Hasher
     {
         sum = firstLetter + lastLetter;
         hashed = sum % 23;
-        cout<<hashed<<"\t"<<wordHash<<"\t";
+        // cout<<hashed<<"\t"<<wordHash<<"\t";
         if (elementarray[hashed] == "0")
         {
-            elementarray[hashed] == wordHash;
+            elementarray[hashed] = wordHash;
         }
         else if(elementarray[hashed] != "0")
         {
@@ -93,7 +93,7 @@ class Hasher
         {
             if(elementarray[i] == "0")
             {
-                cout<<elementarray[i]<<endl;
+                // cout<<elementarray[i]<<endl;
                 cout<<i+1<<". "<<"empty"<<endl;
             }
             else
@@ -127,10 +127,7 @@ int main()
         hash.hashThisWord(firstLetter, lastLetter, word);
     }
 
-//    for(i=0;i<15;i++)
-//    {
-//        cout<<((firstLetter+lastLetter)%23)<<endl;
-//    }
+
 
 
     hash.display();
