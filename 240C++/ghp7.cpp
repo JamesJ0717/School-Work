@@ -126,12 +126,6 @@ int main()
         hash.hashThisWord(firstLetter, lastLetter, word);
     }
 
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 61b225e017f4f11e9d74b2bb5b5886b0faf7b774
     hash.display();
 
     cout<<endl;
