@@ -1,4 +1,5 @@
 .vscode/**
+**/.vscode
 **/**/*.class
 **/**/dist
 **/**/nbproject
@@ -19,3 +20,4 @@ CS441/prog1/cmake-build-debug
 CS441/prog1/prog1 
 CS441/prog1/CMakeLists.txt
 **/**/a.out.dSYM
+**/.DS_Store
