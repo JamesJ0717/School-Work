@@ -1,4 +1,4 @@
-.vscode/*
+.vscode/**
 **/**/*.class
 **/**/dist
 **/**/nbproject
@@ -12,3 +12,10 @@ CS.sublime-workspace
 **/**/*.exe.stackdump
 CS249/Alex
 **/a.out
+**/*.zip
+CS441/sunyat
+CS441/turing
+CS441/prog1/cmake-build-debug
+CS441/prog1/prog1 
+CS441/prog1/CMakeLists.txt
+**/**/a.out.dSYM
