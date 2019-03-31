@@ -21,3 +21,4 @@ CS441/prog1/prog1
 CS441/prog1/CMakeLists.txt
 **/**/a.out.dSYM
 **/.DS_Store
+.DS_Store
