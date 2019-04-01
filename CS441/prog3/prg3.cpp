@@ -15,12 +15,6 @@ struct Data
     uint64_t addr2;
     char branchTaken;
 };
-struct Block
-{
-    int index, dirtyBit, errorCnt;
-    uint64_t tag;
-    char prediction;
-};
 
 int main(int argc, char *argv[])
 {
@@ -68,7 +62,6 @@ int main(int argc, char *argv[])
     bmRatio = biModal(lines, numLines);
     twRatio = twoLayerAdaptive(lines, numLines);
     //
-
     // Print results
     cout << "Fixed : " << ftRatio << " / " << numLines << endl;
     cout << "Static : " << sfRatio << " / " << numLines << endl;
@@ -96,24 +89,30 @@ uint64_t staticFirst(Data lines[], uint64_t numLines)
     uint64_t correct = 0;
 
     // Make prediction table
-    Block predTable[1024];
+    uint64_t tags[1024];
+    char prediction[1024];
 
     for (uint64_t a = 0; a < numLines; a++)
     {
-        for (int b = 0; b < 1024; b++)
+        int index = lines[a].addr1 << 54 >> 54;
+        if (tags[index] != (lines[a].addr1 >> 10))
         {
-            if (predTable[b].index == ((lines[a].addr1 << 54) >> 54))
+            tags[index] = (lines[a].addr1 >> 10);
+            prediction[index] = '@';
+            if (lines[a].branchTaken == '@')
             {
-                predTable[b].prediction = '@';
-                predTable[b].tag = (lines[a].addr1 >> 11);
-                if (predTable[b].prediction == lines[a].branchTaken)
-                {
-                    correct++;
-                }
-                else
-                {
-                    predTable[b].prediction = lines[a].branchTaken;
-                }
+                correct++;
+            }
+            else
+            {
+                prediction[index] = '.';
+            }
+        }
+        else
+        {
+            if (prediction[index] == lines[a].branchTaken)
+            {
+                correct++;
             }
         }
     }
@@ -125,58 +124,53 @@ uint64_t biModal(Data lines[], uint64_t numLines)
 {
     uint64_t correct = 0;
 
-    Block predTable[1024];
+    int tags[1024];
+    int errorCnt[1024];
+    char prediction[1024];
+
     for (uint64_t c = 0; c < numLines; c++)
     {
-        for (uint64_t b = 0; b < 1024; b++)
+        int index = (lines[c].addr1 << 54) >> 54;
+
+        if (tags[index] != (int)(lines[c].addr1 >> 10))
         {
-            // start off predicting true and errorCnt = 1
-            predTable[b].prediction = '@';
-            predTable[b].errorCnt = 1;
+            tags[index] = (int)(lines[c].addr1 >> 10);
+            prediction[index] = '@';
+            errorCnt[index] = 1;
 
-            if ((b) == (lines[c].addr1 << 54 >> 54))
-            {
-                predTable[b].index = ((lines[c].addr1 << 54) >> 54);
-            }
-
-            // if tag is already in table, carry on
-            // if not add it
-            if (predTable[b].tag == lines[c].addr1 >> 10)
-            {
-            }
-            else
-            {
-                predTable[b].tag = (lines[c].addr1 >> 10);
-                predTable[b].prediction = '@';
-                predTable[b].errorCnt = 1;
-            }
-
-            // if prediction is what it does, add 1 to correct
-            // if not, add 1 to error count
-            if (lines[c].branchTaken == predTable[b].prediction)
+            if (lines[c].branchTaken == '@')
             {
                 correct++;
-                predTable[b].errorCnt = 1;
+                errorCnt[index] = 0;
             }
             else
             {
-                predTable[b].errorCnt++;
-
-                //if errorCnt is 2, flip prediction
-                if (predTable[b].errorCnt == 2)
+                prediction[index] = '.';
+                errorCnt[index] = 0;
+            }
+        }
+        else
+        {
+            if (prediction[index] == lines[c].branchTaken)
+            {
+                correct++;
+                errorCnt[index] = 0;
+            }
+            else
+            {
+                errorCnt[index]++;
+                if (errorCnt[index] % 2 == 0)
                 {
-                    if (predTable[b].prediction == '@')
+                    if (prediction[index] == '@')
                     {
-                        predTable[b].prediction = '.';
+                        prediction[index] = '.';
                     }
                     else
                     {
-                        predTable[b].prediction = '@';
+                        prediction[index] = '@';
                     }
-                    predTable[b].errorCnt = 1;
                 }
             }
-            // cout << b << " " << predTable[b % 1024].tag << " " << predTable[b % 1024].prediction << " " << predTable[b % 1024].errorCnt << endl;
         }
     }
 
