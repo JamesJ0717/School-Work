@@ -6,8 +6,10 @@ branches = {}
 for x in lines:
     if x[0] in branches:
         branches[x[0]] += x[1]
+        print(x[0], '\t', x[1])
     else:
         branches[x[0]] = x[1]
+        print(x[0], '\t', x[1])
 
 for b in branches:
     print(b, branches[b])
